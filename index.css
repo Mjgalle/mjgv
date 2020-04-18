@@ -112,6 +112,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction:column;
     }
     .half1#grey {
         background-color: #a89f96;
@@ -123,9 +124,44 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction:column;
+    }
+    .inbetweenBreak {
+        height:9vw;
+    }
+    
+    .half2 {
+        background-color: #b28b71;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+    }
+    .half2#brown {
+        background-color: #361f10;
+    }
+    .full2 {
+        background-color: #b8512f;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
     }
     footer {
         height:12vw;
+    }
+    .hiddenCopy {
+        display:none;
+    }
+    h2:hover + .hiddenCopy {
+        display:block;
+        font-size: 2.5vw;
+        width: 33vw;
+        text-transform: uppercase;
     }
 }
 
@@ -208,6 +244,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction:Column;
     }
     .half1#grey {
         background-color: #a89f96;
@@ -219,6 +256,41 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction:Column;
+    }
+    .inbetweenBreak {
+        height:3vw;
+    }
+    
+    .half2 {
+        background-color: #b28b71;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+    }
+    .half2#brown {
+        background-color: #361f10;
+    }
+    .full2 {
+        background-color: #b8512f;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+    }
+    .hiddenCopy {
+        display:none;
+    }
+    h2:hover + .hiddenCopy {
+        display:block;
+        font-size: 1.5vw;
+        width: 24vw;
+        text-transform: uppercase;
     }
     footer {
         height:6vw;
