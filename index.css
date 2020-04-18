@@ -162,6 +162,7 @@ body {
         font-size: 2.5vw;
         width: 33vw;
         text-transform: uppercase;
+        font-family: 'Manrope', sans-serif;
     }
 }
 
@@ -291,6 +292,7 @@ body {
         font-size: 1.5vw;
         width: 24vw;
         text-transform: uppercase;
+        font-family: 'Manrope', sans-serif;
     }
     footer {
         height:6vw;
