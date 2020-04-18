@@ -90,6 +90,15 @@ body {
         position: absolute;
         line-height: 6vw;
     }
+    p.quickIntro {
+        font-family: 'Manrope', sans-serif;
+        font-size: 3vw;
+        line-height:3.8vw;
+    }
+    h2 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 3vw;
+    }
     .secondTout {
         width: 100%;
         display: flex;
@@ -163,6 +172,15 @@ body {
         position: absolute;
         line-height: 5vw;
         text-align: right;    
+    }
+    p.quickIntro {
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.3vw;
+        line-height:1.6vw;
+    }
+    h2 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 1.3vw;
     }
     .secondTout {
         width: 100%;
