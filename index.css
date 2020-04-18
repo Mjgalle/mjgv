@@ -14,146 +14,75 @@
     letter-spacing:2px;
     color:#5a5656;
     text-transform:uppercase;
+    font-family: 'Manrope', sans-serif;
  }
-
+ h1 {
+    font-family: 'Manrope', sans-serif;
+ }
+.wrapperOfImages {
+    position:relative;
+}
 .firstTout {
     width:100%;
     justify-content: center;
     display:flex;
 }
 
-.row1 {
-    display:flex;
-    justify-content: space-around;
-    width:36vw;
-    margin: 0 auto;
-}
-/* WRAPER AND IMAGE 1*/
-.imageWrapper1 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
-}
-.image1 {
-    width: 45vw;
-    margin-left: -4vw;
-    margin-top: -12vw;
-}
-/* WRAPER AND IMAGE 1*/
 
-/* WRAPER AND IMAGE 2*/
-.imageWrapper2 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
+@media only screen and (max-width: 767px) {
+    .row1 {
+        display:flex;
+        width:100%;
+        margin-top:6vw;
+    }
+    .imageWrapper1 {
+        overflow: hidden;
+        max-height: 49vw;
+    }
+    .image1 {
+        width: 97vw;
+    }
+    p.titleOfPic {
+        font-family: 'Homemade Apple', cursive;
+        font-size: 4vw;
+        top: 10vw;
+        left: 7vw;
+        width: 48vw;
+        transform: rotate(-7deg);
+        position: absolute;
+        line-height: 6vw;
+    }
+    
 }
-.image2 {
-    width: 45vw;
-    margin-left: -16vw;
-    margin-top: -12vw;
-}
-/* WRAPER AND IMAGE 2*/
-
-/* WRAPER AND IMAGE 3*/
-.imageWrapper3 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
-}
-.image3 {
-    width: 45vw;
-    margin-left: -28vw;
-    margin-top: -12vw;
-}
-/* WRAPER AND IMAGE 3*/
-
-/* WRAPER AND IMAGE 4*/
-.imageWrapper4 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
-}
-.image4 {
-    width: 45vw;
-    margin-left: -4vw;
-    margin-top: -21vw;
-}
-/* WRAPER AND IMAGE 4*/
-
-/* WRAPER AND IMAGE 5*/
-.imageWrapper5 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
-}
-.image5 {
-    width: 45vw;
-    margin-left: -16vw;
-    margin-top: -21vw;
-}
-/* WRAPER AND IMAGE 5*/
-
-/* WRAPER AND IMAGE 6*/
-.imageWrapper6 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
-}
-.image6 {
-    width: 45vw;
-    margin-left: -28vw;
-    margin-top: -21vw;
-}
-/* WRAPER AND IMAGE 6*/
-
-/* WRAPER AND IMAGE 7*/
-.imageWrapper7 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
-}
-.image7 {
-    width: 45vw;
-    margin-left: -4vw;
-    margin-top: -30vw;
-}
-/* WRAPER AND IMAGE 7*/
-
-/* WRAPER AND IMAGE 8*/
-.imageWrapper8 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
-}
-.image8 {
-    width: 45vw;
-    margin-left: -16vw;
-    margin-top: -30vw;
-}
-/* WRAPER AND IMAGE 8*/
-
-/* WRAPER AND IMAGE 9*/
-.imageWrapper9 {
-    max-width:12vw;
-    overflow:hidden;
-    max-height:9vw;
-}
-.image9 {
-    width: 45vw;
-    margin-left: -28vw;
-    margin-top: -30vw;
-}
-/* WRAPER AND IMAGE 9*/
 
 
-
-.row1 {
-    animation-name: expandImage;
-    animation-duration:3s;
-    animation-iteration-count:4;
+@media only screen and (min-width: 768px) {
+    .row1 {
+        display:flex;
+        width:100%;
+        margin-top:4vw;
+    }
+    .imageWrapper1 {
+        max-width:71vw;
+        overflow:hidden;
+        max-height:34vw;
+    }
+    .image1 {
+        width: 72vw;
+    }
+    p.titleOfPic {
+        font-family: 'Homemade Apple', cursive;
+        font-size: 3vw;
+        top: 6vw;
+        left: 6vw;
+        width: 28vw;
+        transform: rotate(-7deg);
+        position: absolute;
+        line-height: 3vw;
+    }
+    
 }
 
-@keyframes expandImage {
-    0% {width:36vw; margin: 0 auto; }
-    100% {width:100%; margin:  0 auto 8vw; }
-}
+
+/*font-family: 'Manrope', sans-serif;
+font-family: 'Homemade Apple', cursive;*/
