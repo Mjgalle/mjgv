@@ -2,18 +2,16 @@ body {
     margin:0;
 }
 .navigationPart {
-    width:100%;
+    width: 100%;
     background-color: #ddb094;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
  h1 {
     font-family: 'Manrope', sans-serif;
  }
-.wrapperOfImages {
-    position:relative;
-}
+
 .firstTout {
     width:100%;
     justify-content: center;
@@ -31,9 +29,6 @@ body {
 
 
 @media only screen and (max-width: 767px) {
-    .navigationPart {
-        height: 16vw;
-    }
     .activeLink {
         opacity:.5;
         color:#5a5656;
@@ -59,60 +54,47 @@ body {
 
     }
     .firstTout {
-        width: 50%;
+        display:flex;
         justify-content: center;
-        display: flex;
-        flex-direction: column;
+        flex-direction:Column;
         align-items: center;
-        margin: 0 auto;
-        height:100vw;
+        width:100%;
 
     }
     .row1 {
         display:flex;
         width:100%;
+        margin-top:6vw;
     }
     .imageWrapper1 {
         overflow: hidden;
         max-height: 56vw;
         width:100%;
     }
-    .image1 {
-        width:113vw;
-    }
-    p.titleOfPic {
-        font-family: 'Homemade Apple', cursive;
-        font-size: 3vw;
-        top: 10vw;
-        left: 11vw;
-        width: 35vw;
-        transform: rotate(-7deg);
-        position: absolute;
-        line-height: 6vw;
-    }
-    .secondTout {
-        width: 100%;
-        display: flex;
-        height: 50vw;
-    }
-    .half1 {
-        background-color: #dab29e;
-        width: 100%;
-        height: 100%;
-        display: flex;
+    .wrapperOfImages {
+        position:absolute;
+        bottom:0;
+        width:100%;
+        display:flex;
         justify-content: center;
-        align-items: center;
     }
-    .half1#grey {
-        background-color: #a89f96;
+    .icon1:hover {
+        opacity:.5;
     }
+    .icon1#linkedIn {
+        width:4vw;
+    }
+    .icon1#email {
+        width:4vw;
+    }
+    .icon1#gitHub {
+        width:4vw;
+    }
+    
 }
 
 
 @media only screen and (min-width: 768px) {
-    .navigationPart {
-        height: 8vw;
-    }
     .activeLink {
         opacity:.5;
         color:#5a5656;
@@ -120,16 +102,6 @@ body {
     a.nonActiveLink {
         text-decoration:none;
         color:#5a5656;
-    }
-    .firstTout {
-        width: 50%;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        height:30vw;
-
     }
     ul {
         display:flex;
@@ -144,41 +116,26 @@ body {
     .row1 {
         display:flex;
         width:100%;
+        margin-top:4vw;
     }
-    .imageWrapper1 {
-        max-width:100%;
-        overflow:hidden;
-        max-height:49vw;
-    }
-    .image1 {
-        width: 104vw;
-    }
-    p.titleOfPic {
-        font-family: 'Homemade Apple', cursive;
-        font-size: 3vw;
-        top: 10vw;
-        left: -2vw;
-        width: 38vw;
-        transform: rotate(-7deg);
-        position: absolute;
-        line-height: 5vw;
-        text-align: right;    
-    }
-    .secondTout {
-        width: 100%;
-        display: flex;
-        height: 20vw;
-    }
-    .half1 {
-        background-color: #dab29e;
-        width: 100%;
-        height: 100%;
-        display: flex;
+    .wrapperOfImages {
+        position:absolute;
+        bottom:0;
+        width:100%;
+        display:flex;
         justify-content: center;
-        align-items: center;
     }
-    .half1#grey {
-        background-color: #a89f96;
+    .icon1:hover {
+        opacity:.5;
+    }
+    .icon1#linkedIn {
+        width:4vw;
+    }
+    .icon1#email {
+        width:4vw;
+    }
+    .icon1#gitHub {
+        width:4vw;
     }
     
 }
