@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
 }
- h1 {
+ h1,h2 {
     font-family: 'Manrope', sans-serif;
  }
 .wrapperOfImages {
@@ -54,7 +54,7 @@ body {
         font-family: 'Manrope', sans-serif;
         margin-left: -10vw;
     }
-    h1 {
+    h1,h2 {
         font-size:5vw;
 
     }
@@ -66,7 +66,9 @@ body {
         align-items: center;
         margin: 0 auto;
         height:100vw;
-
+    }
+    .firstTout#second {
+        height:123vw;
     }
     .row1 {
         display:flex;
@@ -95,7 +97,7 @@ body {
         font-size: 3.5vw;
         line-height:3.8vw;
     }
-    h2 {
+    h3 {
         font-family: 'Manrope', sans-serif;
         font-size: 3vw;
     }
@@ -126,9 +128,6 @@ body {
         align-items: center;
         flex-direction:column;
     }
-    .inbetweenBreak {
-        height:9vw;
-    }
     
     .half2 {
         background-color: #b28b71;
@@ -157,7 +156,7 @@ body {
     .hiddenCopy {
         display:none;
     }
-    h2:hover + .hiddenCopy {
+    h3:hover + .hiddenCopy {
         display:block;
         font-size: 2.5vw;
         width: 33vw;
@@ -179,6 +178,10 @@ body {
         text-decoration:none;
         color:#5a5656;
     }
+    h1,h2 {
+        font-size:2.3vw;
+
+    }
     .firstTout {
         width: 50%;
         justify-content: center;
@@ -187,7 +190,9 @@ body {
         align-items: center;
         margin: 0 auto;
         height:30vw;
-
+    }
+    .firstTout#second {
+        height:35vw;
     }
     ul {
         display:flex;
@@ -228,7 +233,7 @@ body {
         font-size: 1.3vw;
         line-height:1.6vw;
     }
-    h2 {
+    h3 {
         font-family: 'Manrope', sans-serif;
         font-size: 1.3vw;
     }
@@ -259,9 +264,6 @@ body {
         align-items: center;
         flex-direction:Column;
     }
-    .inbetweenBreak {
-        height:3vw;
-    }
     
     .half2 {
         background-color: #b28b71;
@@ -287,7 +289,7 @@ body {
     .hiddenCopy {
         display:none;
     }
-    h2:hover + .hiddenCopy {
+    h3:hover + .hiddenCopy {
         display:block;
         font-size: 1.5vw;
         width: 24vw;
