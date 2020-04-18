@@ -48,7 +48,7 @@ body {
         display: flex;
         justify-content: space-evenly;
         list-style: none;
-        letter-spacing: 2px;
+        font-size:3vw;
         color: #5a5656;
         text-transform: uppercase;
         font-family: 'Manrope', sans-serif;
