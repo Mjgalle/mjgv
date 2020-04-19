@@ -19,23 +19,23 @@ body {
     flex-direction:column;
     align-items:center;
 }
-.footerWrapper {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    justify-content: center;
-}
 
 
 @media only screen and (max-width: 767px) {
+    .navigationPart {
+        height: 16vw;
+    }
     .activeLink {
         opacity:.5;
-        color:#5a5656;
+        color:#fff;
     }
     a.nonActiveLink {
         text-decoration:none;
-        color:#5a5656;
+        color:#fff;
+    }
+    a.nonActiveLink:hover {
+        opacity:.5;
+        color:#fff;
     }
     ul {
         display: flex;
@@ -44,7 +44,7 @@ body {
         justify-content: space-evenly;
         list-style: none;
         letter-spacing: 2px;
-        color: #5a5656;
+        color: #fff;
         text-transform: uppercase;
         font-family: 'Manrope', sans-serif;
         margin-left: -10vw;
@@ -61,47 +61,79 @@ body {
         width:100%;
 
     }
-    .row1 {
+    .footerWrapper {
+        width:100%;
         display:flex;
-        width:100%;
-        margin-top:6vw;
+        margin: 29vw 0 0;
+        justify-content: center;
+        align-items:center;
     }
-    .imageWrapper1 {
-        overflow: hidden;
-        max-height: 56vw;
-        width:100%;
+    .footerRow {
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        height:152vw;
+        flex-direction:column;
     }
     .wrapperOfImages {
-        position:absolute;
-        bottom:0;
         width:100%;
         display:flex;
         justify-content: center;
+        align-items:center;
     }
-    .icon1:hover {
+    .icon1:hover,
+    h3.iconTitle:hover {
         opacity:.5;
     }
     .icon1#linkedIn {
-        width:4vw;
+        width:19vw;
     }
     .icon1#email {
-        width:4vw;
+        width:13vw;   
     }
     .icon1#gitHub {
-        width:4vw;
+        width:12vw;   
+    }
+    h3.iconTitle {
+        font-size:3.5vw;
+        text-transform:uppercase;
+        color:black;
+        font-family: 'Manrope', sans-serif;
+    }
+    a.iconLink {
+        display:Flex;
+        flex-direction:column;
+        align-items:center;
+        text-decoration:none;
+    }
+    footer {
+        height:12vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: grey;
+        font-size: 2.5vw;
     }
     
 }
 
 
 @media only screen and (min-width: 768px) {
+    .navigationPart {
+        height: 8vw;
+    }
     .activeLink {
         opacity:.5;
-        color:#5a5656;
+        color:#fff;
     }
     a.nonActiveLink {
         text-decoration:none;
-        color:#5a5656;
+        color:#fff;
+    }
+    a.nonActiveLink:hover {
+        opacity:.5;
+        color:#fff;
     }
     ul {
         display:flex;
@@ -112,11 +144,26 @@ body {
         letter-spacing:2px;
         text-transform:uppercase;
         font-family: 'Manrope', sans-serif;
+        color:#fff;
      }
     .row1 {
         display:flex;
         width:100%;
         margin-top:4vw;
+    }
+    .footerWrapper {
+        width:100%;
+        display:flex;
+        margin: 29vw 0 0;
+        justify-content: center;
+        align-items:center;
+    }
+    .footerRow {
+        display:flex;
+        width:50%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items:center;
     }
     .wrapperOfImages {
         position:absolute;
@@ -124,20 +171,44 @@ body {
         width:100%;
         display:flex;
         justify-content: center;
+        align-items:center;
     }
-    .icon1:hover {
+    .icon1:hover,
+    h3.iconTitle:hover {
         opacity:.5;
     }
     .icon1#linkedIn {
-        width:4vw;
+        width:7vw;
     }
     .icon1#email {
-        width:4vw;
+        width:6vw;   
+        margin-top: 0.8vw;
     }
     .icon1#gitHub {
-        width:4vw;
+        width:6vw;   
+        margin-top: 0.8vw;
     }
-    
+    h3.iconTitle {
+        font-size:1.6vw;
+        text-transform:uppercase;
+        color:black;
+        font-family: 'Manrope', sans-serif;
+    }
+    a.iconLink {
+        display:Flex;
+        flex-direction:column;
+        align-items:center;
+        text-decoration:none;
+    }
+    footer {
+        height:6vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: grey;
+        font-size: 1vw;
+    }
 }
 
 
