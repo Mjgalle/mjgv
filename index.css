@@ -1,6 +1,7 @@
 body {
     margin:0;
     font-size:1rem;
+    font-family: 'Manrope', sans-serif;
 }
 .fontMonst {
     font-family: 'Montserrat', sans-serif;
@@ -13,6 +14,7 @@ body {
 .nav_list {
     font-size:1em;
     list-style:none;
+    padding:0;
 }
 .nav_link:hover,
 .nav_link:active,
@@ -28,27 +30,20 @@ h1, h2, h3, h4, h5, h6, p {
  h1,h2 {
     font-family: 'Manrope', sans-serif;
  }
-h1 {
-     font-size:2vw;
-     margin:0 !important;
- }
-h2 {
-    font-size:4.5vw;
-}
 .wrapperOfImages {
     position:relative;
 }
 .title_h1 {
-    font-size: 2em;
+    font-size: 1.6em;
     line-height: 1em;
 }
 .h2_tag {
     line-height: 1em;
     margin: 0em -.05em 0em;
-    font-size: 6em;
+    font-size: 5em;
 }
 .sub_h2_tag {
-    font-size: 3.5em;
+    font-size: 2.8em;
     line-height: 1em;
 }
 .about_hero {
