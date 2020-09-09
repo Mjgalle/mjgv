@@ -1,290 +1,334 @@
+
 body {
-    margin:0;
-    font-size:1rem;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
 }
-.fontMonst {
-    font-family: 'Montserrat', sans-serif;
+/*COLORS*/
+.cameo_pink_c {
+    color:#D4AFB9;
 }
-.fontRobot {
-    font-family: 'Roboto', sans-serif;
+.cameo_pink_bg {
+    background-color:#D4AFB9;
+}
+.light_periwinkle_c {
+    color:#D1CFE2;
+}
+.light_periwinkle_bg {
+    background-color:#D1CFE2;
+}
+.wild_blue_yonder_c {
+    color:#9CADCE; 
+}
+.wild_blue_yonder_bg {
+    background-color:#9CADCE; 
+}
+.middle_blue_c {
+    color:#7EC4CF;
+}
+.middle_blue_bg {
+    background-color:#7EC4CF;
+}
+.maximum_blue_c {
+    color:#52B2CF;
+}
+.maximum_blue_bg {
+    background-color:#52B2CF;
 }
 
-/*Start of Navigation*/
-.nav_list {
+
+.shape_1 {
+    width:10%;
+}
+h1, h2, h3, p {
+    font-weight:100;
+    color: #5d5d5d;
+}
+h2.title {
+    color: #5d5d5d;
+    font-weight:bolder;
+    text-transform:uppercase;
+    margin:0;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;  
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+}
+.pink_bg {
+    background-color:#e4d0f6;
+}
+
+.quote_tout, .nav_bg {
+    background:#ceeffa;
+}
+.design_process_tout {
+    position:Relative;
+}
+.icon_title {
+    text-transform:uppercase;
     font-size:1em;
-    list-style:none;
-    padding:0;
+    font-weight:bold;
+    color: #5d5b5b;
 }
-.nav_link:hover,
-.nav_link:active,
-.nav_link:focus {
-    text-decoration:underline;
+.icon_wrapper {
+    border: 3px solid #e4d0f6;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 21px;
 }
-/*End of Navigation*/
+.icon_description {
+    text-align:center;
+    font-size:.8em;
+    line-height:1.5em;
+    color: #5d5b5b;
+}
+.icon_width {
+    width:40px;
+    padding: 10px;
+    border-radius: 10px;
+    filter: invert(.35);
 
-h1, h2, h3, h4, h5, h6, p {
-    margin:0;
-    padding:0;
 }
- h1,h2 {
-    font-family: 'Manrope', sans-serif;
- }
-.wrapperOfImages {
+
+.slide_show_image {
+    width:40%;
+    margin: 0 auto;
+    display:flex;
+
+}
+.cluster_1 {
     position:relative;
 }
-.title_h1 {
-    font-size: 1.6em;
-    line-height: 1em;
+.flower_1{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
 }
-.h2_tag {
-    line-height: 1em;
-    margin: 0em -.05em 0em;
-    font-size: 5em;
+.flower_2{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
 }
-.sub_h2_tag {
-    font-size: 2.8em;
-    line-height: 1em;
+.flower_3{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
 }
-.about_hero {
-    margin-top:1.5em;
-    line-height:1.5em;
+.flower_4{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
 }
-
-
-
-
-
-.firstTout {
-    width:100%;
-    justify-content: center;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+.flower_5{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
 }
-.footerWrapper {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    justify-content: center;
+.flower_6{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
 }
 
 
-@media only screen and (max-width: 767px) {
-    .wrapperOfImages {
-        background-image:url('images/desktop-coding-hero.jpg');
-        width:100%;
-        height:40em;
-        background-size:cover;
-        position:relative;
 
-    }
-    .top_of_image {
-        position:Absolute;
-        top:0;
-        left:0;
-        width:100%;
-        height:100%;
-        background:#000000bd;
-    }
-    .activeLink {
-        opacity:.5;
-        color:#5a5656;
-    }
-    a.nonActiveLink {
-        text-decoration:none;
-        color:#fff;
-    }
-    a.nonActiveLink:hover {
-        opacity:.5;
-    }
-    h1,h2 {
-        font-size:5vw;
 
-    }
-    .firstTout {
-        width: 60%;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        height:100vw;
-    }
-    .firstTout#second {
-        height:130vw;
-    }
-    .row1 {
-        display:flex;
-        width:100%;
-    }
-    .imageWrapper1 {
-        overflow: hidden;
-        max-height: 56vw;
-        width:100%;
-    }
-    .image1 {
-        width:113vw;
-    }
-    p.titleOfPic {
-        font-family: 'Homemade Apple', cursive;
-        font-size: 3vw;
-        top: 10vw;
-        left: 11vw;
-        width: 35vw;
-        transform: rotate(-7deg);
-        position: absolute;
-        line-height: 6vw;
-    }
-    p.quickIntro {
-        font-family: 'Manrope', sans-serif;
-        font-size: 3.5vw;
-        line-height:3.8vw;
-    }
-    h3 {
-        font-family: 'Manrope', sans-serif;
-        font-size: 3vw;
-    }
-    .secondTout {
-        width: 100%;
-        display: flex;
-        height: 50vw;
-        color:#fff;
-    }
-    .half1 {
-        background-color: #9e7662;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction:column;
-    }
-    .half1#grey {
-        background-color: #a89f96;
-    }
-    .full1 {
-        background-color: #cfb99c;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction:column;
-    }
-    
-    .half2 {
-        background-color: #dab094;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction:column;
-    }
-    .half2#brown {
-        background-color: #926040;
-    }
-    .full2 {
-        background-color: #7b3f2b;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction:column;
-    }
-    footer {
-        height:12vw;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: grey;
-        font-size: 2.5vw;
-        font-family: 'Manrope', sans-serif;
-    }
-    .hiddenCopy {
+/*Start of Slider*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  background:#e4d0f6;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background:#ceeffa;
+}
+
+/* Caption text */
+.text {
+  color: #777777;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #777777;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background:#ceeffa;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*End of Slider*/
+
+@media only screen and (max-width:60em) {
+    nav{
         display:none;
     }
-    h3:active + .hiddenCopy {
-        display:block;
-        font-size: 2.5vw;
-        width: 33vw;
-        text-transform: uppercase;
-        font-family: 'Manrope', sans-serif;
-    }
-    h3:hover + .hiddenCopy {
-        display:block;
-        font-size: 2.5vw;
-        width: 33vw;
-        text-transform: uppercase;
-        font-family: 'Manrope', sans-serif;
-    }
-
 }
 
+.title_readmore {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #5d5b5b;
+    margin:0;
+}
+.description_readmore {
+    margin: 2em 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #5d5b5b;
+}
+.button_readmore {
+    font-size: .8em;
+    text-transform: uppercase;
+    background: white;
+    padding: 13px 20px 10px;
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5d5b5b;
+}
+.daisy_picture {
+    width:500px;
+}
+.grey_under_line {
+    width: 10%;
+    border-bottom: 2px solid grey;
+    margin: 20px 0 10px;
+}
+.getting_toknow_description {
+    font-size:1em;
+    line-height:1.5em;
+    color: #5d5b5b;
+    margin:0;
+    padding:10px 0;
+}
+.box {
+    width: 80%;
+    height: 250px;
+}
+.box#one {
+    background:#D4AFB9;
+}
+.box#two {
+    background:#7EC4CF;
+}
+.box#three {
+    background:#9CADCE;
+}
+h3.my_story {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5d5b5b;
+}
+.little_grey_line {
+    width: 10%;
+    background: #5d5b5b;
+    height: 1px;
+}
+p.description_story {
+    font-size: .8em;
+    line-height: 1.5em;
+    color: #5d5b5b;
+    width:80%;
+}
 
-@media only screen and (min-width: 768px) {
-    .activeLink {
-        opacity:.5;
-        color:#5a5656;
-    }
-    a.nonActiveLink {
-        text-decoration:none;
-        color:#fff;
-    }
-    a.nonActiveLink:hover {
-        opacity:.5;
-    }
-    h1,h2 {
-        font-size:2.3vw;
+footer h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5d5b5b;
+    font-size: 1em;
+}
+footer p.small_link {
+    font-size:.8em;
+    margin:0;
+    line-height:2em;
+    color: #5d5b5b;
+}
 
-    }
-    .wrapperOfImages {
-        background-image:url('images/desktop-coding-hero.jpg');
-        width:100%;
-        height:40em;
-        background-size:cover;
-        position:relative;
-
-    }
-    .top_of_image {
-        position:Absolute;
-        top:0;
-        left:0;
-        width:100%;
-        height:100%;
-        background:#000000bd;
-    }
-    .firstTout {
-        width: 50%;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        height:30vw;
-    }
-    .firstTout#second {
-        height:35vw;
-    }
-    .row1 {
-        display:flex;
-        width:100%;
-    }
-    .image1 {
-        width: 104vw;
-    }
-    footer {
-        height:6vw;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: grey;
-        font-size: 1vw;
-        font-family: 'Manrope', sans-serif;
-    }
+footer .all_rights {
+    font-size:.8em;
+    color: #5d5b5b;
 }

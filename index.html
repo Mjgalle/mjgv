@@ -1,117 +1,181 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en-US">
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
   <head>
     <meta charset="UTF-8">
-    <title>MJGV</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Maria J Gallegos Vallejo is a Front End Web Developer that is based out of Columbus Ohio.">
-    <meta name="keywords" content="Front End Web Developer Columbus Ohio">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
-    <link rel="icon" type="image/png" href="images/initials.png" />
-    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Manrope&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
-    <nav class="w-100">
-      <ul class="flex w-100 justify-around ttu nav_list">
-        <li>
-          <a class="black no-underline nav_link" href="">Home</a>
-        </li>
-        <li>
-          <a class="black no-underline nav_link" href="">Contact</a>
-        </li>
-        <li>
-          <a class="black no-underline nav_link" href="">Portfolio</a>
-        </li>
-      </ul>
-    </nav>
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script src="index.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
 
   </head>
-  <body>
-    <div class="wrapperOfImages">
-        <div class="pa5-l pl3 top_of_image flex flex-column justify-center">
-          <h1 class="white title_h1">Front End Web Developer</h1>
-          <h2 class="fontRobot white h2_tag">M.J.G.V.</h2>
-          <h2 class="sub_h2_tag white">Columbus, OH</h2>
-          <p class="white about_hero w-50-l w-70">Hey there, this is a personal playground site, it will constatly be changing, if you have any questions or want to get in touch, please feel free to reach out.</p>
+    <nav class="cameo_pink_bg ph3 pv4">
+        <ul>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#quote">Quote</a>
+            </li>
+            <li>
+                <a href="#process">Process</a>
+            </li>
+            <li>
+                <a href="#illustration">Illurstrations</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+        </ul>
+    </nav>
+    <body>
+        <div id="about" class="tc cameo_pink_bg pv5 ph3">
+            <h1 class="white mt7">
+                Maria J Gallegos Vallejo
+            </h1>
+            <h2 class="title">Front End Web Developer</h2>
+            <h2 class="title">Columbus, OH</h2>
+            <h3 style="margin:0;">Piano Enthusiast, Dog Mom, and Illustrator</h3>
         </div>
-    </div>
+
+
+        
+
+
+        <div id="process" class="design_process_tout flex flex-column ph5 pv6">
+            <div class="flex flex-row-l flex-column justify-between items-start-l items-center">
+                <div class="flex flex-column items-center w-20-l w-90 mb5 mb0-l">
+                    <div class="icon_wrapper">
+                        <img class="icon_width" src="images/icons/design-drawing-board.png" alt="Icon of a blank canvas.">
+                    </div>
+                    <h2 class="icon_title">Drawing Board</h2>
+                    <p class="icon_description">You not only have to write content about yoursself which in my opinion is one of the hardest things to do, but you also need to come up with content to display.</p>
+                </div>
+                <div class="flex flex-column items-center w-20-l w-90 mb5 mb0-l">
+                    <div class="icon_wrapper">
+                        <img class="icon_width" src="images/icons/design-tool-wireframe.png" alt="Icon of wireframe.">
+                    </div>
+                    <h2 class="icon_title">Wireframe</h2>
+                    <p class="icon_description">Once you have the content, I think this might be the most fun part, trying to lay everything out, see what works, see what isn't.</p>
+                </div>
+                <div class="flex flex-column items-center w-20-l w-90 mb5 mb0-l">
+                    <div class="icon_wrapper">
+                        <img class="icon_width" src="images/icons/design-tool-layout.png" alt="Icon of layout.">
+                    </div>
+                    <h2 class="icon_title">Content Layout</h2>
+                    <p class="icon_description">After laying out the content on Desktop, you will most likely have to re work it for mobile, and if you really want to put in extra love, you will have to do a tablet option as well.</p>
+                </div>   
+                <div class="flex flex-column items-center w-20-l w-90 mb5 mb0-l">
+                    <div class="icon_wrapper">
+                        <img class="icon_width" src="images/icons/time-clock-file-favorite.png" alt="Icon of layout.">
+                    </div>
+                    <h2 class="icon_title">Final Project</h2>
+                    <p class="icon_description">Putting in the time for the finishing touches is what really sets the website apart and stand out from the others.</p>
+                </div>       
+            </div>
+
+        </div>
+
+        <div id="quote" class="quote_tout flex flex-row-l flex-column pv5">
+            <div class="w-50-l w-100 flex items-center justify-center mb5 mb0-l">
+                <img class="daisy_picture" src="images/artwork/Daisy_no_bg.PNG"/>
+            </div>
+            <div class="w-50-l w-80 flex flex-column items-start justify-center" style="margin: 0 auto;">
+                <h2 class="title_readmore w-50-l">The Process Might Seem Like the Key</h2>
+                <p class="description_readmore w-60-l">Coding a website is simple, its the DESIGN that manages to kill me everytime I try.</p>
+                <button class="button_readmore">Read More</button>
+            </div>
+        </div>
+
+        <div class="ph6-l ph5 pv6 flex flex-column">
+            <h2 class="title_readmore">Getting To know me</h2>
+            <div class="grey_under_line"></div>
+            <p class="getting_toknow_description">Here are some things that I have dealth with in previous jobs</p>
+
+            <div class="flex flex-row-l flex-column justify-center items-center">
+                <div class="flex flex-column items-center items-start-l mt5">
+                    <div class="box" id="one"></div>
+                    <h3 class="my_story">My Story</h3>
+                    <div class="little_grey_line"></div>
+                    <p class="description_story">I was born in Mexico City, Mexico, and lived there for about 7 years before my dad got a job offer to move to the US.</p>
+                    <p>&#8594;</p>
+
+                </div>
+
+                <div class="flex flex-column items-center items-start-l mt5">
+                    <div class="box" id="two"></div>
+                    <h3 class="my_story">My Story</h3>
+                    <div class="little_grey_line"></div>
+                    <p class="description_story">I was born in Mexico City, Mexico, and lived there for about 7 years before my dad got a job offer to move to the US.</p>
+                    <p>&#8594;</p>
+
+                </div>
+
+                <div class="flex flex-column items-center items-start-l mt5">
+                    <div class="box" id="three"></div>
+                    <h3 class="my_story">My Story</h3>
+                    <div class="little_grey_line"></div>
+                    <p class="description_story">I was born in Mexico City, Mexico, and lived there for about 7 years before my dad got a job offer to move to the US.</p>
+                    <p>&#8594;</p>
+
+                </div>
+            </div>
+            
+        </div>
 
 
 
-
-
-
-
+        <div id="quote" class="light_periwinkle_bg flex flex-row-l flex-column-reverse pv5">
+            <div class="w-50-l w-80 flex flex-column items-end-l items-start justify-center" style="margin: 0 auto;">
+                <h2 class="title_readmore w-50-l tr-l">The Process Might Seem Like the Key</h2>
+                <p class="description_readmore w-60-l tr-l">Coding a website is simple, its the DESIGN that manages to kill me everytime I try.</p>
+                <button class="button_readmore">Read More</button>
+            </div>
+            <div class="w-50-l w-100 flex items-center justify-center mb5 mb0-l">
+                <img class="daisy_picture" src="images/artwork/July_sign.PNG"/>
+            </div>
+        </div>
     
-
-    <!--
-
-    <div class="firstTout">
-      <h1>Maria J Gallegos V</h1>
-      <p class="quickIntro">HI there! My name is Maria and I am a Front End Web Developer. I have been working as a FEWD for a little over three years for LBrands, Abercrombie, and most recently at La Senza. 
-      <br><br>
-      As you can see I have a puppy named Daisy and she is my world! She is totally crazy and energtic as can be.
-      <br><br>
-      I am based out of Columbus OH.
-    </p>
-    </div>
-
-
-    <div class="secondTout">
-      <div class="half1">
-        <h3>DEC 2016</h3>
-        <div class="hiddenCopy">Received my Degree from SUNY New Paltz with a Bachelor's in Graphic Design</div>
-      </div>
-      <div class="half1 onHoverClass" id="grey">
-        <h3>JAN 2017</h3>
-        <div class="hiddenCopy">Started the Disney College Program working in Epcot, Sunshine Seasons.</div>
-      </div>
-    </div>
-
-    <div class="secondTout">
-      <div class="full1 onHoverClass">
-        <h3>OCT 2017</h3>
-        <div class="hiddenCopy">Took a Web Development Bootcamp remotely at BrainStation.</div>
-      </div>
-    </div>
-
-    <div class="firstTout" id="second">
-      <h2>Front End Web Developer</h2>
-      <p class="quickIntro">I decided to become a FEWD when I realized that my Graphic Design portfolio was not strong, and I had no internship experience. Right before I graduated college, I applied to the Disney College Program and got accepted.
-        <br><br>
-      I quickly realized that although it was a great place to work in, it was just not for me. I moved back in with my parents and after repeatedly seeing positions open for Front End Developers, I decided I had to learn these skills so I could start my career. 
-        <br><br>
-      After applying to BrainStation I was accepted into their Fall 2017 Cohort, shortly after finishing it and starting my job search, I landed my first job. 
-    </p>
-    </div>
-
-    <div class="secondTout">
-      <div class="half2">
-        <h3>JAN 2018</h3>
-        <div class="hiddenCopy">Landed a contracting job as a Front End Developer with LBrands for La Senza.</div>
-      </div>
-      <div class="half2" id="brown">
-        <h3>FEB 2019</h3>
-        <div class="hiddenCopy">Got a contracting position with Abercrombie under Hollister.</div>
-      </div>
-    </div>
-
-    <div class="secondTout">
-      <div class="full2">
-        <h3>AUG 2019</h3>
-        <div class="hiddenCopy">Offered a Full Time Position with La Senza as a Front End Developer.</div>
-      </div>
-    </div>
--->
-
+    </body>
+    <footer class="flex flex-column mv4">
+        <div class="flex flex-row-l flex-column items-center items-start-l">
+            <div class="w-50-l w-60 flex justify-around-l justify-between">
+                <div class="flex flex-column">
+                    <h3>Quick Links</h3>
+                        <p class="small_link">About</p>
+                        <p class="small_link">Illustrations</p>
+                </div>
+                <div class="flex flex-column">
+                    <h3>Location</h3>
+                        <p class="small_link">Columbus OH</p>
+                </div>
+            </div>
     
-    
-  
-  </body>
-  <footer>
-    ©MJGV
-  </footer>
+            <div class="w-50-l w-60 flex justify-around-l justify-between mt5 mt0-l">
+                <div class="flex flex-column">
+                    <h3>Social</h3>
+                        <p class="small_link">Instagram</p>
+                        <p class="small_link">Facebook</p>
+                        <p class="small_link">LinkedIn</p>
+                </div>
+                <div class="flex flex-column">
+                    <h3>Projects</h3>
+                        <p class="small_link">Memory Game</p>
+                </div>
+            </div>
+        </div>
+        <div class="tc all_rights mt5">
+            &#169; All Rights Reserved
+        </div>
+       
+            
+    </footer>
 </html>
