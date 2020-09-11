@@ -477,3 +477,7 @@ footer .all_rights {
     }
     
 }
+
+button:hover {
+    cursor:pointer;
+}
