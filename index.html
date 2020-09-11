@@ -12,33 +12,44 @@
   <meta name="description" content="Top Front End Web Developer located in Columbus Ohio. Maria J Gallegos-Vallejo has over 5+ years experience.">
   <meta name="keywords" content="keywords,here">
   <link rel="stylesheet" href="index.css" type="text/css">
-  <script src="index.js"></script>
   <link rel="icon" type="image/png" href="artwork/initials.png">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
 
   </head>
-    <nav class="cameo_pink_bg ph3 pv4">
+    <nav id="actualTopNav" class="topnav">
         <ul>
             <li>
-              <a href="#about">About</a>
+              <a class="middle_white" href="#about">About</a>
             </li>
             <li>
-                <a href="#illustration">Illurstrations</a>
+                <a class="middle_white" href="#illustration">Illurstrations</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+                <a class="middle_white" href="#experience">Experience</a>
             </li>
         </ul>
+        
+        
     </nav>
+    <button id="myTopnav" class="nav_button" onclick="myFunction();">
+        <div class="mobile_nav">
+            <div class="white_line_nav"></div>
+            <div class="white_line_nav"></div>
+            <div class="white_line_nav"></div>
+
+        </div>
+
+
+    </button>
     <body>
         <div id="about" class="tc cameo_pink_bg pv5 ph3">
-            <h1 class="white mt7">
+            <h1 class="title_hero">
                 Maria J Gallegos Vallejo
             </h1>
-            <h2 class="title" style="color:white;">Front End Web Developer</h2>
-            <h2 class="title" style="color:white;">Columbus, OH</h2>
-            <h3 style="font-size:.9em" class="white">Piano Enthusiast, Dog Mom, and Illustrator</h3>
+            <h2 class="title title_hero_sub">Front End Web Developer</h2>
+            <h2 class="title title_hero_sub_sub">Columbus, OH</h2>
+            <h3 class="white title_hero_sub_sub_description">Piano Enthusiast, Dog Mom, and Illustrator</h3>
         </div>
 
 
@@ -89,9 +100,9 @@
                 <img class="daisy_picture" src="artwork/Daisy_no_bg.PNG"/>
             </div>
             <div class="w-50-l w-80 flex flex-column items-start justify-center" style="margin: 0 auto;">
-                <h2 class="title_readmore w-50-l">Knowing your Audience</h2>
-                <p class="description_readmore w-60-l">It is extremely important to know who you will be creating content for</p>
-                <button class="button_readmore">Read More</button>
+                <h2 class="title_readmore w-50-l">PupStickers</h2>
+                <p class="description_readmore w-60-l">What better way of showing your love for your dog, than creating stickers made of their cute faces</p>
+                <button class="button_readmore">Learn More</button>
             </div>
         </div>
 
@@ -101,34 +112,34 @@
 
 
         <div class="ph6-l ph5 pv6 flex flex-column" id="experience">
-            <h2 class="title_readmore">Getting To know me</h2>
+            <h2 class="title_readmore">Portfolio</h2>
             <div class="grey_under_line"></div>
-            <p class="getting_toknow_description">How I got to where I am today</p>
+            <p class="getting_toknow_description">Previous work experience</p>
 
             <div class="flex flex-row-l flex-column justify-center items-center items-start-l">
                 <div class="flex flex-column items-center items-start-l mt5 w-80-l w-100">
                     <div class="box" id="one"></div>
-                    <h3 class="my_story">Growing Up</h3>
+                    <h3 class="my_story">Walt Disney World</h3>
                     <div class="little_grey_line"></div>
-                    <p class="description_story">I was born in Mexico City, Mexico, and lived there for about 7 years before my dad got a job offer to move to the US.</p>
+                    <p class="description_story">The happies and most magical place on earth.</p>
                     <p>&#8594;</p>
 
                 </div>
 
                 <div class="flex flex-column items-center items-start-l mt5 w-80-l w-100">
                     <div class="box" id="two"></div>
-                    <h3 class="my_story">Picking A Career</h3>
+                    <h3 class="my_story">La Senza</h3>
                     <div class="little_grey_line"></div>
-                    <p class="description_story">I always knew I wanted to be a dentist, but as it turned out, my life had other plans.</p>
+                    <p class="description_story">Retail lingerie brand, once owned by L.Brands, helping empower women world wide to feel sexy and confident every day.</p>
                     <p>&#8594;</p>
 
                 </div>
 
                 <div class="flex flex-column items-center items-start-l mt5 w-80-l w-100">
                     <div class="box" id="three"></div>
-                    <h3 class="my_story">Job History</h3>
+                    <h3 class="my_story">Hollister</h3>
                     <div class="little_grey_line"></div>
-                    <p class="description_story">My first job was at the age of 16, working at Splash Down Beach in Fishkill, NY.</p>
+                    <p class="description_story">Retail company owned by Abercrombie & Fitch targetted toward young adults.</p>
                     <p>&#8594;</p>
 
                 </div>
@@ -140,9 +151,9 @@
 
         <div id="quote" class="light_periwinkle_bg flex flex-row-l flex-column-reverse pv5">
             <div class="w-50-l w-80 flex flex-column items-end-l items-start justify-center" style="margin: 0 auto;">
-                <h2 class="title_readmore w-50-l tr-l">Creating content for your design</h2>
-                <p class="description_readmore w-60-l tr-l">Having the correct content is everything</p>
-                <button class="button_readmore">Read More</button>
+                <h2 class="title_readmore w-50-l tr-l">Phone wallpapers</h2>
+                <p class="description_readmore w-60-l tr-l">Fun pictures created for all types of occasions, especially cute ones</p>
+                <button class="button_readmore">Learn More</button>
             </div>
             <div class="w-50-l w-100 flex items-center justify-center mb5 mb0-l">
                 <img class="daisy_picture" src="artwork/July_sign.PNG"/>
@@ -198,4 +209,14 @@
        
             
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("actualTopNav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }  
+    </script>
 </html>
