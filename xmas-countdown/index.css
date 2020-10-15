@@ -1,0 +1,483 @@
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+#about {
+    width:100vw;
+    height:100vh;
+}
+a {
+    text-decoration:none;
+    color:#5d5b5b;
+}
+a.middle
+{
+    position: relative;
+}
+
+a.middle:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #5d5b5b;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+a.middle_white {
+    position: relative;
+}
+
+a.middle_white:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+a.middle_white:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+/*COLORS*/
+.cameo_pink_c {
+    color:#D4AFB9;
+}
+.cameo_pink_bg {
+    background-color:#D4AFB9;
+}
+.light_periwinkle_c {
+    color:#D1CFE2;
+}
+.light_periwinkle_bg {
+    background-color:#D1CFE2;
+}
+.wild_blue_yonder_c {
+    color:#9CADCE; 
+}
+.wild_blue_yonder_bg {
+    background-color:#9CADCE; 
+}
+.middle_blue_c {
+    color:#7EC4CF;
+}
+.middle_blue_bg {
+    background-color:#7EC4CF;
+}
+.maximum_blue_c {
+    color:#52B2CF;
+}
+.maximum_blue_bg {
+    background-color:#52B2CF;
+}
+
+
+.shape_1 {
+    width:10%;
+}
+h1, h2, h3, p {
+    font-weight:100;
+    color: #5d5d5d;
+}
+h2.title {
+    color: #5d5d5d;
+    font-weight:bolder;
+    text-transform:uppercase;
+    margin:0;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;  
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+}
+.pink_bg {
+    background-color:#e4d0f6;
+}
+
+.quote_tout, .nav_bg {
+    background:#ceeffa;
+}
+.design_process_tout {
+    position:Relative;
+}
+.icon_title {
+    text-transform:uppercase;
+    font-size:1em;
+    font-weight:bold;
+    color: #5d5b5b;
+}
+.icon_wrapper {
+    border: 3px solid #e4d0f6;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 21px;
+}
+.icon_description {
+    text-align:center;
+    font-size:.8em;
+    line-height:1.5em;
+    color: #5d5b5b;
+}
+.icon_width {
+    width:40px;
+    padding: 10px;
+    border-radius: 10px;
+    filter: invert(.35);
+
+}
+
+.slide_show_image {
+    width:40%;
+    margin: 0 auto;
+    display:flex;
+
+}
+.cluster_1 {
+    position:relative;
+}
+.flower_1{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.flower_2{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.flower_3{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.flower_4{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.flower_5{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.flower_6{
+    width:25px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+
+
+
+/*Start of Slider*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  background:#e4d0f6;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background:#ceeffa;
+}
+
+/* Caption text */
+.text {
+  color: #777777;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #777777;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background:#ceeffa;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*End of Slider*/
+
+@media only screen and (max-width:60em) {
+    nav{
+        display:none;
+    }
+}
+
+.title_readmore {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #5d5b5b;
+    margin:0;
+}
+.description_readmore {
+    margin: 2em 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #5d5b5b;
+}
+.button_readmore {
+    font-size: .8em;
+    text-transform: uppercase;
+    background: white;
+    padding: 13px 20px 10px;
+    border: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5d5b5b;
+}
+.daisy_picture {
+    width:500px;
+}
+.grey_under_line {
+    width: 10%;
+    border-bottom: 2px solid grey;
+    margin: 20px 0 10px;
+}
+.getting_toknow_description {
+    font-size:1em;
+    line-height:1.5em;
+    color: #5d5b5b;
+    margin:0;
+    padding:10px 0;
+}
+.box {
+    width: 80%;
+    height: 250px;
+}
+.box#one {
+    background:#D4AFB9;
+}
+.box#two {
+    background:#7EC4CF;
+}
+.box#three {
+    background:#9CADCE;
+}
+h3.my_story {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5d5b5b;
+}
+.little_grey_line {
+    width: 10%;
+    background: #5d5b5b;
+    height: 1px;
+}
+p.description_story {
+    font-size: .8em;
+    line-height: 1.5em;
+    color: #5d5b5b;
+    width:80%;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5d5b5b;
+    font-size: 1em;
+}
+footer p.small_link {
+    font-size:.8em;
+    margin:0;
+    line-height:2em;
+    color: #5d5b5b;
+}
+
+footer .all_rights {
+    font-size:.6em;
+    color: #5d5b5b;
+}
+.title_hero {
+    font-size:2.9em;
+    margin-bottom:1em;
+    margin-top:11rem;
+    color:white;
+}
+.title_hero_sub {
+    font-size:2.2em;
+    line-height:.6em;
+    color:white !important;
+}
+.title_hero_sub_sub {
+    font-size:4.1em;
+    color:white !important;
+}
+.title_hero_sub_sub_description {
+    margin:0;
+    font-size:1.6em;
+    margin-top:1.2em;
+    color:white;
+}
+.mobile_nav, #myTopnav {
+    display:none;
+}
+.topnav {
+    padding:2rem 1rem;
+    background-color:#D4AFB9;
+    display:Block;
+}
+
+@media only screen and (max-width:767px) {
+    .title_hero {
+        font-size: 7vw;
+        margin-bottom: 1em;
+        margin-top: 11rem;
+        color:white;
+    }
+    .title_hero_sub {
+        font-size: 5.3vw;
+        line-height: 3vw;
+        color:white !important;
+    }
+    .title_hero_sub_sub {
+        font-size: 9.8vw;
+        color:white !important;
+    }
+    .title_hero_sub_sub_description {
+        margin:0;
+        font-size:3.9vw;
+        margin-top:7vw;
+        color:white;
+    }
+    .white_line_nav {
+        border-bottom:1px solid white;
+        width:40px;
+        margin: 5px 0px;
+    }
+    #myTopnav {
+        display:block;
+    }
+    .mobile_nav {
+        display:Flex;
+        flex-direction:Column;
+    }
+    .nav_button {
+        position: absolute;
+        top: 2em;
+        right: 2em;
+        background-color: #ffffff00;
+        border: 0px;
+    }
+    .topnav {
+        display:none;
+    }
+    .responsive {
+        display:block;
+        position:absolute;
+        background-color: #9cadce;
+        width: 100%;
+        box-shadow: 0px 5px 18px #0000004d;
+    }
+    #actualTopNav ul {
+        display:Flex;
+        flex-direction:Column;
+    }
+    #actualTopNav ul li {
+        margin:1em 0;
+    }
+    
+}
+
+button:hover {
+    cursor:pointer;
+}

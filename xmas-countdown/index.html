@@ -1,0 +1,157 @@
+<!DOCTYPE html lang="en-US">
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Front End Web Developer | Columbus, OH</title>
+  <meta name="author" content="name">
+  <meta name="description" content="Top Front End Web Developer located in Columbus Ohio. Maria J Gallegos-Vallejo has over 5+ years experience.">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <link rel="icon" type="image/png" href="artwork/initials.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+
+  </head>
+    <nav id="actualTopNav" class="topnav">
+        <ul>
+            <li>
+              <a class="middle_white" href="#about">About</a>
+            </li>
+            <li>
+                <a class="middle_white" href="#illustration">Illurstrations</a>
+            </li>
+            <li>
+                <a class="middle_white" href="#experience">Experience</a>
+            </li>
+        </ul>
+        
+        
+    </nav>
+    <button id="myTopnav" class="nav_button" onclick="myFunction();">
+        <div class="mobile_nav">
+            <div class="white_line_nav"></div>
+            <div class="white_line_nav"></div>
+            <div class="white_line_nav"></div>
+
+        </div>
+
+
+    </button>
+    <body>
+        <div id="about" class="tc cameo_pink_bg pv5 ph3">
+            <h1 class="title_hero">
+                xmas countdown
+            </h1>
+            <p id="demo"></p>
+        </div>
+
+    
+        
+
+
+        
+
+
+
+
+
+
+
+
+
+
+    </body>
+    <footer class="flex flex-column mv4">
+        <div class="flex flex-row-l flex-column items-center items-start-l">
+            <div class="w-50-l w-60 flex justify-around-l justify-between">
+                <div class="flex flex-column">
+                    <h3>Quick Links</h3>
+                        <p class="small_link">About</p>
+                        <p class="small_link">Illustrations</p>
+                </div>
+                <div class="flex flex-column">
+                    <h3>Location</h3>
+                        <p class="small_link">
+                            <a class="middle" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391315.9958219291!2d-83.27101387968153!3d39.98261415193341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883889c1b990de71%3A0xe43266f8cfb1b533!2sColumbus%2C%20OH!5e0!3m2!1sen!2sus!4v1599836849957!5m2!1sen!2sus" target="_blank">
+                                Columbus, OH
+                            </a>
+                        </p>
+                </div>
+            </div>
+    
+            <div class="w-50-l w-60 flex justify-around-l justify-between mt5 mt0-l">
+                <div class="flex flex-column">
+                    <h3>Social</h3>
+                        <p class="small_link">
+                            <a class="middle" href="https://www.instagram.com/mjgalle26/" target="_blank">
+                                Instagram
+                            </a>
+                        </p>
+                        <p class="small_link">
+                            <a class="middle" href="https://www.linkedin.com/in/maria-gallegos-vallejo/" target="_blank">
+                                LinkedIn
+                            </a>
+                        </p>
+                </div>
+                <div class="flex flex-column">
+                    <h3>Projects</h3>
+                        <p class="small_link">
+                            <a class="middle" href="https://radiant-shelf-72509.herokuapp.com/" target="_blank">
+                            Memory Game
+                            </a>
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="tc all_rights mt5 flex justify-center items-center">
+            &#169;All Rights Reserved
+        </div>
+       
+            
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("actualTopNav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }  
+    </script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 24, 2020").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+</html>
