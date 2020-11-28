@@ -38,6 +38,7 @@ a.middle:before {
 
 a.middle_white {
     position: relative;
+    color:#fff;
 }
 
 a.middle_white:hover:before {
@@ -476,6 +477,63 @@ footer .all_rights {
         margin:1em 0;
     }
     
+}
+
+nav {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:4;
+}
+#nav-desktop {
+    z-index:1;
+    margin-top: 3vh;
+}
+span.nav-line {
+    width:4.5vw;
+    height: 0.1vw;
+    background: white;
+    margin: 0.4vw;
+}
+span.nav-line#nav-two {
+    width:7vw;
+}
+span.nav-line#nav-three {
+    width:3.2vw;
+}
+.mainNav {
+    transform: translateY(-70px);
+    background: #9464717a;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position:absolute;
+    transition:transform .3s;
+}
+.showNow {
+    transform: translateY(0px);
+}
+.nav-link {
+    font-weight:100;
+    text-decoration:none;
+}
+@media only screen and (max-width: 767px) {
+    .showNow {
+        height: 13vh;
+        padding-bottom: 3vw;
+        justify-content:space-evenly;
+        align-items:flex-end;
+        transform:translate(0);
+    }
+    .nav-link {
+        width:30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 button:hover {

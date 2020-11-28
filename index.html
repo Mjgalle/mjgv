@@ -17,31 +17,26 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
 
   </head>
-    <nav id="actualTopNav" class="topnav">
-        <ul>
-            <li>
-              <a class="middle_white" href="#about">About</a>
-            </li>
-            <li>
-                <a class="middle_white" href="#illustration">Illurstrations</a>
-            </li>
-            <li>
-                <a class="middle_white" href="#experience">Experience</a>
-            </li>
-        </ul>
-        
-        
-    </nav>
-    <button id="myTopnav" class="nav_button" onclick="myFunction();">
-        <div class="mobile_nav">
-            <div class="white_line_nav"></div>
-            <div class="white_line_nav"></div>
-            <div class="white_line_nav"></div>
-
+    <nav class="w-100 flex justify-center">
+        <div class="flex flex-column items-center" id="nav-desktop" onclick="nav();">
+            <span class="nav-line"></span>
+            <span class="nav-line" id="nav-two"></span>
+            <span class="nav-line" id="nav-three"></span>
         </div>
 
+        <div class="mainNav" id="listNav">
+            <a class="middle_white mr3-l nav-link" href="">
+                Home
+            </a>
+            <a class="middle_white mr3-l nav-link" href="">
+                Contact
+            </a>
+            <a class="middle_white mr3-l nav-link" href="">
+                Portfolio
+            </a>
 
-    </button>
+        </div>
+    </nav>
     <body>
         <div id="about" class="tc cameo_pink_bg pv5 ph3">
             <h1 class="title_hero">
@@ -210,13 +205,13 @@
             
     </footer>
     <script>
-        function myFunction() {
-            var x = document.getElementById("actualTopNav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
+        function nav() {
+            var listNav = document.getElementById('listNav');
+            if(listNav.className === "mainNav") {
+                listNav.className += " showNow";
             } else {
-                x.className = "topnav";
+                listNav.className = "mainNav";
             }
-        }  
+        }
     </script>
 </html>
