@@ -502,7 +502,7 @@ span.nav-line#nav-three {
     width:3.2vw;
 }
 .mainNav {
-    transform: translateY(-70px);
+    transform: translateY(-100px);
     background: #9464717a;
     width: 100%;
     height: 10vh;
